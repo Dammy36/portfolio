@@ -7,6 +7,37 @@
         --secondry-color:rgb(243, 219, 219);
         --primary-color:#272142;
 }
+.logo{
+    max-height: 40px;
+}
+
+nav{
+    padding: 20px 0;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+
+}
+nav a:hover, nav li.active a {
+    color: var(--branding-color);
+}
+
 
 h1,h2,h3,h4,h5,h6{
 font-family: var(--heading-font-family);
@@ -97,20 +128,14 @@ padding: 160px 20px;
     
 }
 
-.about-img-fluid{
-    border-radius: 200px;
+
+
+
+.content-container-head{
+    background-color:black;
+    color: #ffffff;
+    text-align: center;
 }
-
-
-/*.image{
-    position: absolute;
-        width: 403px;
-        height: 704px;
-        left: 800px;
-        top: 0; 
-        padding: 80px 20px; 
-               
-    }*/
 
 .focus{
     padding: 120px 60px;
@@ -136,7 +161,7 @@ padding: 160px 20px;
               text-align: center;
           }
 
-          .contect{
+          .content{
             text-align: center;
             padding: 0;
           }
