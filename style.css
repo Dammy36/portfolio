@@ -4,7 +4,7 @@
     serif;
     --default-font-family:'Poppins',
         sans-serif;
-        --secondry-color:rgb(243, 219, 219);
+        --secondry-color:#f9f7fe;
         --primary-color:#272142;
 }
 .logo{
@@ -61,7 +61,7 @@ h2{
     font-size: 64px;
 }
 
-h4{
+h3{
   font-size:48px;
 }
 
@@ -78,7 +78,7 @@ p{
    color: var(--primary-color);
    text-align: center;
    margin: 0;
-   padding: 160px 20px;
+   padding: 80px 20px;
    
 }
 
@@ -113,7 +113,7 @@ border-radius: 4px;
 }
 
 .content{
-padding: 160px 20px;
+padding: 60px 20px;
 }
 
 .content-container{
@@ -140,7 +140,9 @@ padding: 160px 20px;
     
 }
 
-
+.word{
+    color:black;
+}
 
 
 .content-container-head{
@@ -148,6 +150,8 @@ padding: 160px 20px;
     color: #ffffff;
     text-align: center;
 }
+
+
 
 .focus{
     padding: 120px 60px;
@@ -168,12 +172,12 @@ footer .contact-box p{
 
 footer .email-link{
     text-decoration: none;
-    color: black;
+    color:black;
     font-size: 24px;
     
 }
 
-footer.email-link:hover{
+footer .email-link:hover{
     color: var(--branding-color);
 }
 
@@ -203,7 +207,7 @@ background-color: var(--branding-color);
         font-size: 44px;
     }
 
-    h4{
+    h3{
         font-size: 26px;
     }
 
