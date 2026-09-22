@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Damsel Nails — Case study · Oseyemi Dammy</title>
+    <meta name="description" content="Case study: Damsel Nails, a multi-page website for a nail studio in Lagos, built with HTML, CSS, JavaScript, Supabase and n8n." />
+    <meta property="og:title" content="Damsel Nails — Case study · Oseyemi Dammy" />
+    <meta property="og:description" content="Case study: Damsel Nails, a multi-page website for a nail studio in Lagos, built with HTML, CSS, JavaScript, Supabase and n8n." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#f1f1f5" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23272142'/%3E%3Ctext x='14' y='47' font-family='Georgia,serif' font-weight='700' font-size='40' fill='%23f1f1f5'%3ED%3C/text%3E%3Ccircle cx='50' cy='44' r='4' fill='%236c63ff'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../main.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <a class="wordmark" href="../index.html" aria-label="Oseyemi Dammy — home"
+          >Dammy<span>.</span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="menu-toggle__text">Menu</span>
+          <span class="menu-toggle__lines" aria-hidden="true"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Main">
+          <ul class="nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../work.html" aria-current="page">Work<sup>17</sup></a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+          <div class="site-nav__foot">
+            <span>Lagos, Nigeria</span>
+            <span><span data-lagos-time>--:--</span> WAT</span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+
+      <div class="wrap cs-head">
+        <div class="cs-head__top">
+          <a class="back-link" href="../work.html"><span class="arrow" aria-hidden="true">←</span> All work</a>
+          <span class="label">Project 01 / 06</span>
+        </div>
+        <span class="label">Website · Nail studio, Egbeda, Lagos</span>
+        <h1 class="cs-head__title reveal">Damsel Nails</h1>
+        <p class="cs-head__lede reveal reveal-delay-1">A website for a nail studio in Lagos — first a one-page landing page, later rebuilt as a full multi-page site.</p>
+
+          <dl class="cs-facts reveal reveal-delay-1">
+            <div><dt class="label">Type</dt><dd>Business website</dd></div>
+            <div><dt class="label">Role</dt><dd>Design & development</dd></div>
+            <div><dt class="label">Stack</dt><dd>HTML, CSS, JavaScript, Swiper.js, Supabase, n8n</dd></div>
+            <div><dt class="label">Links</dt><dd>
+              <a class="link" href="https://damselnaills.netlify.app/" target="_blank" rel="noopener noreferrer">Live site <span class="arrow arrow--up" aria-hidden="true">↗</span></a>
+              <a class="link" href="https://github.com/Dammy36/Damselnails-website" target="_blank" rel="noopener noreferrer">GitHub <span class="arrow arrow--up" aria-hidden="true">↗</span></a>
+            </dd></div>
+          </dl>
+      </div>
+
+      <div class="wrap cs-hero-img reveal">
+        <div class="frame">
+          <div class="frame__bar"><span>damselnaills.netlify.app</span><span>Homepage</span></div>
+          <div class="frame__img">
+            <img src="../images/projects/damsel-nails.jpg" width="1344" height="622" alt="Damsel Nails homepage: a dark hero with a close-up of patterned almond nails and the headline Nails, Refined." />
+          </div>
+        </div>
+      </div>
+
+      <section class="cs-section">
+        <div class="wrap grid">
+          <div class="cs-section__label">
+            <span class="label">01</span>
+            <h2>Overview</h2>
+          </div>
+          <div class="cs-section__body reveal">
+            <p>Damsel Nails is a nail studio in Egbeda, Lagos. The website shows the studio's services, pricing, gallery and reviews, and gives clients a way to get in touch and book.</p>
+            <p>Appointments are handled by a separate app I built for the studio — see <a class="link" href="damsel-booking.html">Damsel Booking</a>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cs-section">
+        <div class="wrap grid">
+          <div class="cs-section__label">
+            <span class="label">02</span>
+            <h2>Version 1 → Version 2</h2>
+          </div>
+          <div class="cs-section__body reveal">
+            <p><strong>Version 1</strong> was a one-page landing page to showcase the services and gallery images. I used the Bootstrap grid for a responsive image gallery, and JavaScript to change the theme background colour.</p>
+            <p><strong>Version 2</strong> is a full rebuild: separate Home, About, Services, Gallery and Contact pages, with a black, white and champagne editorial look and a centred, cinematic hero used across the site.</p>
+            <div class="cs-compare">
+              <figure>
+                <div class="frame frame--pad"><div class="frame__img"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/545/original/Capture9_.PNG?1762467971" alt="Version 1: the original one-page Damsel Nails landing page" loading="lazy" /></div></div>
+                <figcaption class="label">Version 1 — <a class="link" href="https://damselnails.netlify.app/" target="_blank" rel="noopener noreferrer">damselnails.netlify.app</a></figcaption>
+              </figure>
+              <figure>
+                <div class="frame"><div class="frame__img"><img src="../images/projects/damsel-nails.jpg" width="1344" height="622" alt="Version 2: the redesigned Damsel Nails homepage" loading="lazy" /></div></div>
+                <figcaption class="label">Version 2 — <a class="link" href="https://damselnaills.netlify.app/" target="_blank" rel="noopener noreferrer">damselnaills.netlify.app</a></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cs-section">
+        <div class="wrap grid">
+          <div class="cs-section__label">
+            <span class="label">03</span>
+            <h2>Key features</h2>
+          </div>
+          <div class="cs-section__body reveal">
+            <ul class="feature-list">
+              <li><span>Multi-page site: Home, About, Services, Gallery, Contact and a privacy policy page.</span></li>
+              <li><span>Image carousels built with Swiper.js, and animated service images.</span></li>
+              <li><span>An image admin backed by Supabase, so gallery and site images can be changed without editing code.</span></li>
+              <li><span>An AI support chatbot connected to an n8n webhook.</span></li>
+              <li><span>A contact form sent through an n8n automation that shows the real send status to the visitor.</span></li>
+              <li><span>SEO basics: sitemap, robots.txt, canonical URLs and local business schema.</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="cs-section">
+        <div class="wrap grid">
+          <div class="cs-section__label">
+            <span class="label">04</span>
+            <h2>Technologies</h2>
+          </div>
+          <div class="cs-section__body reveal">
+            <ul class="stack-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Swiper.js</li>
+              <li>Supabase</li>
+              <li>n8n</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="cs-section">
+        <div class="wrap grid">
+          <div class="cs-section__label">
+            <span class="label">05</span>
+            <h2>Links</h2>
+          </div>
+          <div class="cs-section__body reveal">
+            <p><a class="link" href="https://damselnaills.netlify.app/" target="_blank" rel="noopener noreferrer">damselnaills.netlify.app <span class="arrow arrow--up" aria-hidden="true">↗</span></a></p>
+            <p><a class="link" href="https://github.com/Dammy36/Damselnails-website" target="_blank" rel="noopener noreferrer">github.com/Dammy36/Damselnails-website <span class="arrow arrow--up" aria-hidden="true">↗</span></a></p>
+          </div>
+        </div>
+      </section>
+
+      <div class="wrap">
+        <a class="cs-next" href="../projects/damsel-booking.html">
+          <div>
+            <span class="label">Next project</span>
+            <p class="cs-next__title">Damsel Booking</p>
+          </div>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="wrap">
+          <span class="label">Contact</span>
+          <h2 id="closing-title" class="closing__title reveal">
+            Have a project in mind? <em>Let's build something useful.</em>
+          </h2>
+          <div class="grid closing__grid">
+            <p class="closing__email">
+              <a class="link-reveal" href="mailto:osedee101@gmail.com">osedee101@gmail.com <span class="arrow" aria-hidden="true">→</span></a>
+            </p>
+            <div class="closing__social">
+              <a href="https://github.com/Dammy36" target="_blank" rel="noopener noreferrer">GitHub <span class="arrow arrow--up" aria-hidden="true">↗</span></a>
+              <a href="https://www.linkedin.com/in/damilola-oseyemi" target="_blank" rel="noopener noreferrer">LinkedIn <span class="arrow arrow--up" aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="grid">
+          <div class="site-footer__name">
+            <strong>Oseyemi Dammy</strong>
+            Frontend Developer<br />Lagos, Nigeria
+          </div>
+          <div class="site-footer__col">
+            <span class="label">Pages</span>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about.html">About</a></li>
+              <li><a href="../work.html">Work</a></li>
+              <li><a href="../contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="site-footer__col">
+            <span class="label">Elsewhere</span>
+            <ul>
+              <li><a href="mailto:osedee101@gmail.com">Email</a></li>
+              <li><a href="https://github.com/Dammy36" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/damilola-oseyemi" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="site-footer__time">
+            <span class="label">Local time</span>
+            <p><span data-lagos-time>--:--</span> WAT</p>
+          </div>
+        </div>
+        <div class="site-footer__bottom">
+          <span>© <span data-year>2026</span> Oseyemi Dammy</span>
+          <span
+            >Hand-coded in HTML, CSS &amp; JavaScript —
+            <a class="link" href="https://github.com/Dammy36/portfolio" target="_blank" rel="noopener noreferrer">open source</a></span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

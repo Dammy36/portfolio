@@ -2,308 +2,306 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- CSS only -->
+    <title>Work — Oseyemi Dammy, Frontend Developer</title>
+    <meta name="description" content="Projects by Oseyemi Dammy: case studies and an archive of websites and web apps built with HTML, CSS, JavaScript and React." />
+    <meta property="og:title" content="Work — Oseyemi Dammy, Frontend Developer" />
+    <meta property="og:description" content="Projects by Oseyemi Dammy: case studies and an archive of websites and web apps built with HTML, CSS, JavaScript and React." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#f1f1f5" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
-      rel="stylesheet"
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23272142'/%3E%3Ctext x='14' y='47' font-family='Georgia,serif' font-weight='700' font-size='40' fill='%23f1f1f5'%3ED%3C/text%3E%3Ccircle cx='50' cy='44' r='4' fill='%236c63ff'/%3E%3C/svg%3E"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/3489c941c2.js"
-      crossorigin="anonymous"
-    ></script>
-    <meta
-      name="description"
-      content="check some of the work i've done so far"
-    />
-    <title>Front-end developer Oseyemi Damilola</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
   </head>
 
   <body>
-    <div class="maxi">
-      <div class="container">
-        <nav>
-          <ul class="d-flex justify-content-center gap-4">
-            <li><a href="/" title="Homepage">Home</a></li>
-            <li><a href="/about.html" title="About Dammy">About</a></li>
-            <li><a href="/work.html" title="Dammy's Work">Work</a></li>
-            <li class="active">
-              <a href="/contact.html" title="Dammy's Contact">Contact</a>
-            </li>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <a class="wordmark" href="index.html" aria-label="Oseyemi Dammy — home"
+          >Dammy<span>.</span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="menu-toggle__text">Menu</span>
+          <span class="menu-toggle__lines" aria-hidden="true"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Main">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html" aria-current="page">Work<sup>17</sup></a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
+          <div class="site-nav__foot">
+            <span>Lagos, Nigeria</span>
+            <span><span data-lagos-time>--:--</span> WAT</span>
+          </div>
         </nav>
       </div>
-    </div>
-    <div class="content-container">
-      <div class="content">
-        <h1 class="mb-5">Take a look at what I've been working on!</h1>
+    </header>
+
+    <main id="main">
+
+      <section class="page-head wrap">
+        <span class="label">Work · 17 projects</span>
+        <h1 class="page-head__title reveal">
+          Things I've <em>built</em> so far.
+        </h1>
+        <p class="page-head__intro reveal reveal-delay-1">
+          Six case studies, then everything else — from my first JavaScript
+          games to full websites and web apps.
+        </p>
+      </section>
+
+      <section class="wrap" aria-labelledby="cs-title">
+        <div class="section-head">
+          <h2 id="cs-title">Case studies</h2>
+          <span class="label">01 — 06</span>
+        </div>
+        <div class="work-featured">
+          <a class="work-card reveal" href="projects/damsel-nails.html">
+            <div class="frame">
+              <div class="frame__img"><img src="images/projects/damsel-nails.jpg" alt="" loading="lazy" /></div>
+            </div>
+            <div class="work-card__text">
+              <div>
+                <span class="label">Project 01</span>
+                <h3>Damsel Nails</h3>
+                <p>Website for a nail studio in Lagos · HTML, CSS, JavaScript</p>
+              </div>
+              <span class="arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+          <a class="work-card reveal" href="projects/damsel-booking.html">
+            <div class="frame">
+              <div class="frame__img"><img src="images/projects/damsel-booking.jpg" alt="" loading="lazy" /></div>
+            </div>
+            <div class="work-card__text">
+              <div>
+                <span class="label">Project 02</span>
+                <h3>Damsel Booking</h3>
+                <p>Booking app for a nail salon · HTML, CSS, JavaScript</p>
+              </div>
+              <span class="arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+          <a class="work-card reveal" href="projects/nayae-beauty.html">
+            <div class="frame">
+              <div class="frame__img"><img src="images/projects/nayae-beauty.jpg" alt="" loading="lazy" /></div>
+            </div>
+            <div class="work-card__text">
+              <div>
+                <span class="label">Project 03</span>
+                <h3>Nayaé Beauty</h3>
+                <p>Online shop + booking for a beauty brand · React, Vite, Supabase</p>
+              </div>
+              <span class="arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+          <a class="work-card reveal" href="projects/portfolio-cms.html">
+            <div class="frame">
+              <div class="frame__img"><img src="images/projects/portfolio-cms.jpg" alt="" loading="lazy" /></div>
+            </div>
+            <div class="work-card__text">
+              <div>
+                <span class="label">Project 04</span>
+                <h3>Portfolio CMS</h3>
+                <p>Portfolio with a private admin dashboard · React, Vite, Tailwind CSS</p>
+              </div>
+              <span class="arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+          <a class="work-card reveal" href="projects/automobile.html">
+            <div class="frame">
+              <div class="frame__img"><img src="images/Capture-automobile.PNG" alt="" loading="lazy" /></div>
+            </div>
+            <div class="work-card__text">
+              <div>
+                <span class="label">Project 05</span>
+                <h3>Automobile</h3>
+                <p>Vehicle management web app · HTML, CSS, JavaScript</p>
+              </div>
+              <span class="arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+          <a class="work-card reveal" href="projects/dictionary.html">
+            <div class="frame">
+              <div class="frame__img"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/551/original/Capture_1.PNG?1762469206" alt="" loading="lazy" /></div>
+            </div>
+            <div class="work-card__text">
+              <div>
+                <span class="label">Project 06</span>
+                <h3>Dictionary</h3>
+                <p>React app using a public API · React, Dictionary API</p>
+              </div>
+              <span class="arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="archive-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 id="archive-title">Archive</h2>
+            <span class="label">11 projects</span>
+          </div>
+          <div class="archive" role="list">
+            <div class="archive-row archive-row--head label" aria-hidden="true">
+              <span>No.</span><span>Project</span><span class="archive-row__stack">Built with</span><span>Preview</span><span class="archive-row__link">Link</span>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">07</span>
+              <h3 class="archive-row__name">Weather App</h3>
+              <span class="archive-row__stack">React</span>
+              <div class="archive-row__thumb"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/580/original/Capture-weather.PNG?1762521962" alt="Screenshot of the Weather App project" loading="lazy" /></div>
+              <a class="archive-row__link link" href="https://unrivaled-cucurucho-9ba8c8.netlify.app/" target="_blank" rel="noopener noreferrer">Live site <span class="arrow arrow--up" aria-hidden="true">↗</span><span class="visually-hidden"> — Weather App</span></a>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">08</span>
+              <h3 class="archive-row__name">World Clock</h3>
+              <span class="archive-row__stack">HTML, CSS, JavaScript, API</span>
+              <div class="archive-row__thumb"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/540/original/capure2.PNG?1762465958" alt="Screenshot of the World Clock project" loading="lazy" /></div>
+              <a class="archive-row__link link" href="https://dammy-digital-clock.netlify.app/" target="_blank" rel="noopener noreferrer">Live site <span class="arrow arrow--up" aria-hidden="true">↗</span><span class="visually-hidden"> — World Clock</span></a>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">09</span>
+              <h3 class="archive-row__name">AI Generator</h3>
+              <span class="archive-row__stack">JavaScript, AI API</span>
+              <div class="archive-row__thumb"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/546/original/Capture-0.PNG?1762468196" alt="Screenshot of the AI Generator project" loading="lazy" /></div>
+              <a class="archive-row__link link" href="https://damselnails-ai.netlify.app/" target="_blank" rel="noopener noreferrer">Live site <span class="arrow arrow--up" aria-hidden="true">↗</span><span class="visually-hidden"> — AI Generator</span></a>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">10</span>
+              <h3 class="archive-row__name">Music Landing Page</h3>
+              <span class="archive-row__stack">HTML, CSS, Bootstrap</span>
+              <div class="archive-row__thumb"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/541/original/Capture-3.PNG?1762465971" alt="Screenshot of the Music Landing Page project" loading="lazy" /></div>
+              <a class="archive-row__link link" href="https://music-app-page.netlify.app/" target="_blank" rel="noopener noreferrer">Live site <span class="arrow arrow--up" aria-hidden="true">↗</span><span class="visually-hidden"> — Music Landing Page</span></a>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">11</span>
+              <h3 class="archive-row__name">Estate Website</h3>
+              <span class="archive-row__stack">HTML, CSS</span>
+              <div class="archive-row__thumb"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/547/original/Capture5.PNG?1762468352" alt="Screenshot of the Estate Website project" loading="lazy" /></div>
+              <a class="archive-row__link link" href="https://precious-puffpuff-99628d.netlify.app/" target="_blank" rel="noopener noreferrer">Live site <span class="arrow arrow--up" aria-hidden="true">↗</span><span class="visually-hidden"> — Estate Website</span></a>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">12</span>
+              <h3 class="archive-row__name">Love Calculator</h3>
+              <span class="archive-row__stack">HTML, CSS, JavaScript</span>
+              <div class="archive-row__thumb"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/579/original/Capture-luv.PNG?1762520734" alt="Screenshot of the Love Calculator project" loading="lazy" /></div>
+              <a class="archive-row__link link" href="https://checkyourluv.netlify.app/" target="_blank" rel="noopener noreferrer">Live site <span class="arrow arrow--up" aria-hidden="true">↗</span><span class="visually-hidden"> — Love Calculator</span></a>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">13</span>
+              <h3 class="archive-row__name">YouTube Clone</h3>
+              <span class="archive-row__stack">HTML, CSS</span>
+              <div class="archive-row__thumb"><img src="images/Capture-youtube.PNG" alt="Screenshot of the YouTube Clone project" loading="lazy" /></div>
+              <span class="archive-row__link archive-row__link--none">No live link</span>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">14</span>
+              <h3 class="archive-row__name">NGO Website</h3>
+              <span class="archive-row__stack">HTML, CSS</span>
+              <div class="archive-row__thumb"><img src="images/NGO%20screenshoot.png" alt="Screenshot of the NGO Website project" loading="lazy" /></div>
+              <span class="archive-row__link archive-row__link--none">No live link</span>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">15</span>
+              <h3 class="archive-row__name">Photographer Website</h3>
+              <span class="archive-row__stack">HTML, CSS</span>
+              <div class="archive-row__thumb"><img src="images/Capture-photograph.PNG" alt="Screenshot of the Photographer Website project" loading="lazy" /></div>
+              <span class="archive-row__link archive-row__link--none">No live link</span>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">16</span>
+              <h3 class="archive-row__name">Calculator</h3>
+              <span class="archive-row__stack">HTML, CSS, JavaScript</span>
+              <div class="archive-row__thumb"><img src="images/Capture-calculator.PNG" alt="Screenshot of the Calculator project" loading="lazy" /></div>
+              <span class="archive-row__link archive-row__link--none">No live link</span>
+            </div>
+            <div class="archive-row reveal" role="listitem">
+              <span class="archive-row__num">17</span>
+              <h3 class="archive-row__name">Rock Paper Scissors</h3>
+              <span class="archive-row__stack">HTML, CSS, JavaScript</span>
+              <div class="archive-row__thumb"><img src="images/Capture-rock.PNG" alt="Screenshot of the Rock Paper Scissors project" loading="lazy" /></div>
+              <span class="archive-row__link archive-row__link--none">No live link</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="wrap">
+          <span class="label">Contact</span>
+          <h2 id="closing-title" class="closing__title reveal">
+            Have a project in mind? <em>Let's build something useful.</em>
+          </h2>
+          <div class="grid closing__grid">
+            <p class="closing__email">
+              <a class="link-reveal" href="mailto:osedee101@gmail.com">osedee101@gmail.com <span class="arrow" aria-hidden="true">→</span></a>
+            </p>
+            <div class="closing__social">
+              <a href="https://github.com/Dammy36" target="_blank" rel="noopener noreferrer">GitHub <span class="arrow arrow--up" aria-hidden="true">↗</span></a>
+              <a href="https://www.linkedin.com/in/damilola-oseyemi" target="_blank" rel="noopener noreferrer">LinkedIn <span class="arrow arrow--up" aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="grid">
+          <div class="site-footer__name">
+            <strong>Oseyemi Dammy</strong>
+            Frontend Developer<br />Lagos, Nigeria
+          </div>
+          <div class="site-footer__col">
+            <span class="label">Pages</span>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="work.html">Work</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="site-footer__col">
+            <span class="label">Elsewhere</span>
+            <ul>
+              <li><a href="mailto:osedee101@gmail.com">Email</a></li>
+              <li><a href="https://github.com/Dammy36" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/damilola-oseyemi" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="site-footer__time">
+            <span class="label">Local time</span>
+            <p><span data-lagos-time>--:--</span> WAT</p>
+          </div>
+        </div>
+        <div class="site-footer__bottom">
+          <span>© <span data-year>2026</span> Oseyemi Dammy</span>
+          <span
+            >Hand-coded in HTML, CSS &amp; JavaScript —
+            <a class="link" href="https://github.com/Dammy36/portfolio" target="_blank" rel="noopener noreferrer">open source</a></span
+          >
+        </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-6 mb-5">
-          <img
-            src="images/Capture-automobile.PNG"
-            class="mb-3 img-fluid rounded"
-            alt="weather project preview"
-          />
-          <h3 class="text-center m-0">AutoMobile App</h3>
-          <p class="text-center text-muted">
-            Built with HTML CSS and JAVASCRIPT
-            <a
-              class="p-2"
-              href="https://gorgeous-kitten-168dcc.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Full Project Here</a
-            >
-          </p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="
-
-https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/551/original/Capture_1.PNG?1762469206"
-            class="mb-3 img-fluid rounded"
-            alt="Dictonary project preview"
-          />
-          <h3 class="text-center m-0">Dictionary project</h3>
-          <p class="text-center text-muted">
-            Built with API REACT JS
-            <a
-              class="p-2"
-              href="https://dammy-dictionary.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Full Project Here</a
-            >
-          </p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="
-https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/580/original/Capture-weather.PNG?1762521962"
-            class="mb-3 img-fluid rounded"
-            alt="weather project preview"
-          />
-          <h3 class="text-center m-0">Weather project</h3>
-          <p class="text-center text-muted">
-            Built with REACT JS
-            <a
-              href="https://unrivaled-cucurucho-9ba8c8.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Full Project here</a
-            >
-          </p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="
-
-https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/540/original/capure2.PNG?1762465958"
-            class="mb-3 img-fluid rounded"
-            alt=" World clock website"
-          />
-          <h3 class="text-center m-0">World Clock project</h3>
-          <p class="text-center text-muted">
-            Built with HTML CSS JavaScript API
-            <a
-              class="p-2"
-              href="https://dammy-digital-clock.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Full Project Here</a
-            >
-          </p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="
-
-
-https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/541/original/Capture-3.PNG?1762465971"
-            class="mb-3 img-fluid rounded"
-            alt=" World clock website"
-          />
-          <h3 class="text-center m-0">Music Landing Page project</h3>
-          <p class="text-center text-muted">
-            Built with HTML CSS Bootsrap
-            <a
-              class="p-2"
-              href="https://music-app-page.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Full Project Here</a
-            >
-          </p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="
-https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/546/original/Capture-0.PNG?1762468196
-
-"
-            class="mb-3 img-fluid rounded"
-            alt=" World clock website"
-          />
-          <h3 class="text-center m-0">AI Generator project</h3>
-          <p class="text-center text-muted">
-            Built with JavaScript API AI
-            <a
-              class="p-2"
-              href="https://damselnails-ai.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Full Project Here</a
-            >
-          </p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="
-
-https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/545/original/Capture9_.PNG?1762467971"
-            class="mb-3 img-fluid rounded"
-            alt=" yogurt app preview"
-          />
-          <h3 class="text-center m-0">Landing Page project</h3>
-          <p class="text-center text-muted">
-            Built with HTML and CSS Bootsrap
-            <a
-              class="p-2"
-              href="https://damselnails.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Full Project Here</a
-            >
-          </p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="images/Capture-youtube.PNG"
-            class="mb-3 img-fluid rounded"
-            alt=" yoga app preview"
-          />
-          <h3 class="text-center m-0">Youtube clone</h3>
-          <p class="text-center text-muted">Built with HTML and CSS</p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="images/NGO screenshoot.png"
-            class="mb-3 img-fluid rounded"
-            alt=" NGO app preview"
-          />
-          <h3 class="text-center m-0">NGO project</h3>
-          <p class="text-center text-muted">Built with HTML and CSS</p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="images/Capture-photograph.PNG"
-            class="mb-3 img-fluid rounded"
-            alt=" NGO app preview"
-          />
-          <h3 class="text-center m-0">Photographer website</h3>
-          <p class="text-center text-muted">Built with HTML and CSS</p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="
-https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/547/original/Capture5.PNG?1762468352"
-            class="mb-3 img-fluid rounded"
-            alt=" NGO app preview"
-          />
-          <h3 class="text-center m-0">Estate website</h3>
-          <p class="text-center text-muted">
-            Built with HTML and CSS
-            <a
-              class="p-2"
-              href="https://precious-puffpuff-99628d.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Full Project Here</a
-            >
-          </p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="
-
-
-
-https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/579/original/Capture-luv.PNG?1762520734"
-            class="mb-3 img-fluid rounded"
-            alt=" NGO app preview"
-          />
-          <h3 class="text-center m-0">Love Calculator App</h3>
-          <p class="text-center text-muted">
-            Built with HTML CSS and JAVASCRIPT
-            <a
-              class="p-2"
-              href="https://checkyourluv.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Full Project Here</a
-            >
-          </p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="images/Capture-calculator.PNG"
-            class="mb-3 img-fluid rounded"
-            alt=" NGO app preview"
-          />
-          <h3 class="text-center m-0">Calculator</h3>
-          <p class="text-center text-muted">
-            Built with HTML and CSS & JAVASCRIPT
-          </p>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <img
-            src="images/Capture-rock.PNG"
-            class="mb-3 img-fluid rounded"
-            alt=" NGO app preview"
-          />
-          <h3 class="text-center m-0">Rock paper scissors</h3>
-          <p class="text-center text-muted">
-            Built with HTML and CSS & JAVASCRIPT
-          </p>
-        </div>
-      </div>
-    </div>
+    </footer>
   </body>
 </html>
